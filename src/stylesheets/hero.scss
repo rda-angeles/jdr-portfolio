@@ -1,0 +1,19 @@
+@import "./variables";
+@import "./responsive";
+.hero-section {
+  &::before {
+    position: absolute;
+    content: "";
+    background-color: $c-primary;
+    width: 50%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    display: none;
+
+    @include LargeScreen {
+      display: block;
+    }
+  }
+}

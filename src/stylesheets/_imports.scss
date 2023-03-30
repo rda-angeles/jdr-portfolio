@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "@splidejs/react-splide/css";
+@import "react-lazy-load-image-component/src/effects/blur.css";
+@import "./gallery.scss";
+@import "./variables";
+@import "./typography";
+@import "./responsive";
+@import "./layouts";

@@ -1,0 +1,36 @@
+.bg-img {
+  background-size: cover;
+  background-position: center;
+}
+
+.img-wrapper {
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.section-title {
+  position: relative;
+  h2 {
+    &::before {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 3rem;
+      height: 0.1rem;
+      content: "";
+      background-color: $c-primary;
+    }
+  }
+}
+
+.splide__pagination {
+  bottom: -1.5em;
+}
+.splide__arrow--next{
+  right:-3rem;
+}
+.splide__arrow--prev{
+  left:-3rem;
+}
