@@ -80,8 +80,8 @@ const About = () => {
           }}
         >
           {certificates.map((certificate) => (
-            <SplideSlide>
-              <Certificates key={certificate.id} certificate={certificate} />
+            <SplideSlide key={certificate.id}>
+              <Certificates certificate={certificate} />
             </SplideSlide>
           ))}
         </Splide>

@@ -1,6 +1,7 @@
 @import "./responsive";
 .gallery__section {
   .gallery-img-wrapper {
+    height: 100%;
     span {
       display: initial !important;
     }
@@ -22,12 +23,15 @@
 
       .v-stretch {
         grid-row: span 2;
+        height: 100%;
       }
 
       .h-stretch {
         grid-column: span 2;
+        height: 100%;
       }
       .big-stretch {
+        height: 100%;
         grid-column: span 2;
         grid-row: span 2;
       }
@@ -37,13 +41,16 @@
   @media screen and (max-width: 560px) {
     .v-stretch {
       grid-row: span 1;
+      height: 100%;
     }
 
     .h-stretch {
       grid-column: span 1;
+      height: 100%;
     }
     .big-stretch {
       grid-column: span 1;
+      height: 100%;
       grid-row: span 1;
     }
   }

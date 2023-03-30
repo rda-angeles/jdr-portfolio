@@ -110,7 +110,7 @@ const Contact = () => {
         </div>
         <div className="text-center lg:text-left">
           {socials.map((social) => (
-            <p className="mb-10 text-xl">
+            <p className="mb-10 text-xl" key={social.id}>
               <span className="font-f-secondary font-bold mr-1 flex-initial items-center">
                 {social.icon}
                 {social.name}:
